@@ -58,7 +58,7 @@ First H-SPN for PH: 8
 PTW_Start: 768
 PTW_End 1023
 
-Possible paging times (UTC) within :
+Possible paging times (UTC) :
 
         -> H-SFN: 680    (1010101000)   date: 2021-04-30 11:20:37.040000
         -> H-SFN: 696    (1010111000)   date: 2021-04-30 11:23:20.880000

@@ -76,7 +76,7 @@ last_hsfn = (last_tedrx_interval*tedrx - last_hyperframe_cycle*H_SFN_SIZE) #numb
 print('\nLast H-SFN 0:', initial_date + datetime.timedelta(seconds=last_hyperframe_cycle*hyperframe_cycle - leap_seconds))
 print('Last possible H-SFN start for given Tedrx:', initial_date + datetime.timedelta(seconds=last_tedrx_interval*tedrx_interval - leap_seconds))
 print('\nUE_ID_H:',ue_id_h_nbiot,'\nFirst H-SPN for PH:',paging_hyperframe,'\nPTW_Start:',ptw_start,'\nPTW_End',ptw_end)
-print('\nPossible paging times (UTC) within :\n')
+print('\nPossible paging times (UTC) :\n')
 for i in range(20):
     date_hsfn = int((last_hsfn+paging_hyperframe+i*tedrx) % H_SFN_SIZE)
     date_hsfn_bits = '{0:010b}'.format(date_hsfn)

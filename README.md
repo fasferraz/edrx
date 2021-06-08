@@ -41,6 +41,9 @@ Options:
   -U, --reference       UTC time reference (1972/06/30 00:00:00). Default is
                         GPS (1980/01/06 00:00:00)
   -D DATE, --date=DATE  Specify start date. Default is to use current time.
+  -C CHANNEL, --channel=CHANNEL
+                        Channel  (PDCCH (for LTE), MPDCCH (for LTE-M) or
+                        NPDCCH (for NB-IoT)). Default is NPDCCH (NB-IoT)
 
 ```
 

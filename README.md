@@ -13,6 +13,7 @@ The inputs are:
 - Tedrx (cycle in Hyper-Frames (1,2,4,8, ..., 1024)
 - PTW in seconds
 - Time reference (current time, or the specfied time in CLI)
+- Channel Type (PDCCH, MPDCCH or NPDCCH (NPDCCH by default))
 
 The outputs:
 
